@@ -27,7 +27,7 @@ pip install openai gradio pydub Pillow python-dotenv ipython
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Mjaddour/Country-Language.git
    cd Country_Language
    ```
 
