@@ -1,42 +1,55 @@
-# Country-Language
+# Country_Language
+
 This repository contains a Jupyter Notebook project that integrates with OpenAI's API to perform language-based tasks, with potential use cases such as analyzing or processing language and multimedia content.
 
-Features
-OpenAI Integration: Uses OpenAI API for language or AI-driven tasks.
-Gradio Interface: Implements a user-friendly graphical interface for interaction.
-Audio and Image Processing: Supports handling audio files (via PyDub) and images (via PIL).
-Environment Configuration: Reads and validates API keys from .env files.
-Requirements
+## Features
+
+- **OpenAI Integration**: Uses OpenAI API for language or AI-driven tasks.
+- **Gradio Interface**: Implements a user-friendly graphical interface for interaction.
+- **Audio and Image Processing**: Supports handling audio files (via PyDub) and images (via PIL).
+- **Environment Configuration**: Reads and validates API keys from `.env` files.
+
+## Requirements
+
 To run this notebook, ensure the following dependencies are installed:
 
-Python 3.8 or higher
-Libraries: openai, gradio, pydub, Pillow, python-dotenv, and IPython
+- Python 3.8 or higher
+- Libraries: `openai`, `gradio`, `pydub`, `Pillow`, `python-dotenv`, and `IPython`
+
 You can install all dependencies using:
 
-bash
-Copy code
+```bash
 pip install openai gradio pydub Pillow python-dotenv ipython
-Setup
-Clone the repository:
+```
 
-bash
-Copy code
-git clone <repository_url>
-cd Country_Language
-Create a .env file in the project root and add your OpenAI API key:
+## Setup
 
-env
-Copy code
-OPENAI_API_KEY=your_openai_api_key
-Launch the Jupyter Notebook:
+1. Clone the repository:
 
-bash
-Copy code
-jupyter notebook Country_Language.ipynb
-Usage
-Follow the code cells in the notebook sequentially to set up and execute tasks.
-The Gradio UI provides a simple interface for user interaction, allowing easy testing and demonstration.
-Sample Workflow
-Initialize API: Ensure your OpenAI API key is loaded and accessible.
-Run Gradio UI: Start the Gradio interface to interact with the project.
-Process Media: Utilize features for processing audio and images as needed.
+   ```bash
+   git clone <repository_url>
+   cd Country_Language
+   ```
+
+2. Create a `.env` file in the project root and add your OpenAI API key:
+
+   ```env
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+
+3. Launch the Jupyter Notebook:
+
+   ```bash
+   jupyter notebook Country_Language.ipynb
+   ```
+
+## Usage
+
+- Follow the code cells in the notebook sequentially to set up and execute tasks.
+- The Gradio UI provides a simple interface for user interaction, allowing easy testing and demonstration.
+
+## Sample Workflow
+
+1. **Initialize API**: Ensure your OpenAI API key is loaded and accessible.
+2. **Run Gradio UI**: Start the Gradio interface to interact with the project.
+3. **Process Media**: Utilize features for processing audio and images as needed.
