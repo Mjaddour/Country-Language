@@ -53,3 +53,8 @@ pip install openai gradio pydub Pillow python-dotenv ipython
 1. **Initialize API**: Ensure your OpenAI API key is loaded and accessible.
 2. **Run Gradio UI**: Start the Gradio interface to interact with the project.
 3. **Process Media**: Utilize features for processing audio and images as needed.
+
+## Examples
+![image](https://github.com/user-attachments/assets/2fc53539-9d33-4780-bb67-961a668aeba5)
+![image](https://github.com/user-attachments/assets/08fc22da-0b94-4b5f-a7bd-7ce599c97b16)
+
