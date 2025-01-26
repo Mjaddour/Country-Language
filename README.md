@@ -16,7 +16,7 @@ To run this notebook, ensure the following dependencies are installed:
 - Python 3.8 or higher
 - Libraries: `openai`, `gradio`, `pydub`, `Pillow`, `python-dotenv`, and `IPython`
 
-You can install all dependencies using:
+You can install all dependencies by using:
 
 ```bash
 pip install openai gradio pydub Pillow python-dotenv ipython
